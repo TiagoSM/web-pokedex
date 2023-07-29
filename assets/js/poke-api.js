@@ -11,7 +11,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
      pokemon.type = type
 
 
-     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
+     pokemon.photo = pokeDetail.sprites.versions['generation-v']['black-white'].animated.front_default
 
      return pokemon
 }
